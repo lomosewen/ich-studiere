@@ -6,20 +6,18 @@
 Welcome to ich-studiere's documentation!
 ========================================
 
-Contents:
+Development Documentation:
+---------------------------
 
 .. toctree::
    :maxdepth: 2
 
-   introduction
-
-
+   web application <web/web>
 
 
 Indices and tables
-==================
+-------------------
 
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
