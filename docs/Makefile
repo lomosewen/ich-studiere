@@ -3,7 +3,8 @@
 
 # You can set these variables from the command line.
 SPHINXOPTS    =
-SPHINXBUILD   = sphinx-build-3
+# MARK: This should use the binary program in you virtualenv bin directory.
+SPHINXBUILD   = ../penv/bin/sphinx-build
 PAPER         =
 BUILDDIR      = build
 
@@ -223,3 +224,8 @@ dummy:
 	$(SPHINXBUILD) -b dummy $(ALLSPHINXOPTS) $(BUILDDIR)/dummy
 	@echo
 	@echo "Build finished. Dummy builder generates no files."
+
+.PHONY: update_zh
+update_zh:
+	@echo "Update zh_CN locale dir"
+	$(shell ../penv/bin/sphinx-intl update -p build/locale -l zh_CN)

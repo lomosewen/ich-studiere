@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Zuo Xiang
+# This file is distributed under the same license as the ich-studiere
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ich-studiere 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-06 12:25+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../source/web/app.rst:2
+msgid "app.py"
+msgstr ""
+
+#: ../../source/web/app.rst:4
+msgid "The *main entry* of the web application."
+msgstr ""
+
+#: of web.app:1
+msgid "Entry of the Web application."
+msgstr ""
+
+#: of web.app:3
+msgid "TODO:"
+msgstr ""
+
+#: of web.app:6
+msgid "# Contact : Zuo Xiang # Email   : xianglinks@gmail.com"
+msgstr ""
+
+#: of web.app.index:1
+msgid "Handle request for index page."
+msgstr ""
+
+#: of web.app.index:3
+msgid ":param request"
+msgstr ""
+
+#: of web.app.init:1
+msgid "Init the web server."
+msgstr ""
+
+#: of web.app.init:3
+msgid "Event loop used for processing HTTP requests"
+msgstr ""
+
+#: of web.app.init:4
+msgid "ip address of server"
+msgstr ""
+
+#: of web.app.init:5
+msgid "port number"
+msgstr ""
+
+#: of web.app.main:1
+msgid "main function"
+msgstr ""
+

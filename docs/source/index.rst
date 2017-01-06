@@ -6,13 +6,25 @@
 Welcome to ich-studiere's documentation!
 ========================================
 
-Development Documentation:
----------------------------
+Introduction:
+-------------
+
+
+Start to develop:
+-----------------
+
+
+
+The API Documentation / Guide:
+------------------------------
+
+If you are looking for information and source code on a specific function,
+class, or method, this part of the documentation is for you.
 
 .. toctree::
    :maxdepth: 2
 
-   web application <web/web>
+   Web Application <web/web>
 
 
 Indices and tables
