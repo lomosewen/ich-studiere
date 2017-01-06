@@ -3,11 +3,9 @@
 """
 Entry of the Web application.
 
-* TODO:
 
-
-# Contact : Zuo Xiang
-# Email   : xianglinks@gmail.com
+@ Contact : Zuo Xiang
+@ Email   : xianglinks@gmail.com
 """
 
 import asyncio
@@ -32,7 +30,7 @@ def index(request):
 def init(loop, ip_addr, port):
     """Init the web server.
 
-    :param loop: Event loop used for processing HTTP requests
+    :param loop (loop): Event loop used for processing HTTP requests
     :param ip_addr (str): ip address of server
     :param port (int): port number
     """

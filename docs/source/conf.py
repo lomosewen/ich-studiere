@@ -344,3 +344,10 @@ texinfo_documents = [
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #
 # texinfo_no_detailmenu = False
+
+# Options for internationalization
+locale_dirs = ['locale/']   # path is example but recommended.
+gettext_compact = False     # optional.
+language='en_US'
+# Use this option to build chinese version
+# language='zh_CN'
